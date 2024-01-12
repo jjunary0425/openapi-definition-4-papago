@@ -1,0 +1,12 @@
+type: object
+properties:
+  source:
+    type: string
+  target:
+    type: string
+  text:
+    type: string
+required:
+  - source
+  - target
+  - text

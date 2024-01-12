@@ -1,0 +1,14 @@
+type: object
+properties:
+  message:
+    type: object
+    properties: 
+      '@type':
+        type: string
+      '@service':
+        type: string
+      '@version':
+        type: string
+      result:
+        $ref: '../schemas/Result.yaml'
+

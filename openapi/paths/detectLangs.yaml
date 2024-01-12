@@ -1,0 +1,14 @@
+post:
+    summary: Detect Language
+    requestBody:
+      content:
+        application/json:
+          schema:
+            $ref: '../components/schemas/QueryWord.yaml'
+    responses:
+      '200':
+        description: Successful response
+        content:
+          application/json:
+            schema:
+              $ref: '../components/schemas/DetectedLangs.yaml'

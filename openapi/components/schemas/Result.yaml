@@ -1,0 +1,8 @@
+type: object
+properties:
+  srcLangType:
+    type: string
+  tarLangType:
+    type: string
+  translatedText:
+    type: string

@@ -1,0 +1,22 @@
+openapi: 3.0.0
+info:
+  title: Naver Papago API
+  version: 1.0.0
+  description: API for language detection and translation using Naver Papago
+
+paths:
+  /v1/papago/detectLangs:
+    $ref: "./paths/detectLangs.yaml"
+  /v1/papago/n2mt:
+    $ref: "./paths/n2mt.yaml"
+components:
+  schemas:
+    queryWord:
+      $ref: "./components/schemas/QueryWord.yaml"
+    detectedLangs:
+      $ref: "./components/schemas/DetectedLangs.yaml"
+    result:
+      $ref: "./components/schemas/Result.yaml"
+    message:
+      $ref: "./components/schemas/Message.yaml"
+    
