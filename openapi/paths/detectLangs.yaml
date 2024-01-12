@@ -1,5 +1,14 @@
 post:
     summary: Detect Language
+    parameters:
+    - in: header
+      name: X-Naver-Client-Id
+      schema:
+        type: string
+    - in: header
+      name: X-Naver-Client-Secret
+      schema:
+        type: string
     requestBody:
       content:
         application/json:
